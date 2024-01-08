@@ -544,7 +544,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+.h-\[3rem\] {
+  height: 3rem;
+}
+
+.w-\[3rem\] {
+  width: 3rem;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
