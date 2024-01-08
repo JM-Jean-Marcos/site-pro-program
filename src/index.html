@@ -1,84 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pro program</title>
     <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Lemon&family=Teko:wght@500&display=swap" rel="stylesheet">
 </head>
-<body>
-    <header>
+<body class="inter-500 bg-[#E6EBEB]">
+    <header class="max-width-1175 m-auto p-4 flex justify-between items-center">
         <div>
-            <img src="https://cdn-icons-png.flaticon.com/512/1005/1005141.png" alt="logo-de-programação">
-            <h1>Program</h1>
+                <img class="mobile-max:w-[1.9rem] mobile-max:ml-[1rem] mobile-max:h-[2rem] ml-[1.7rem] w-[2.5rem] h-[2.5rem]" src="https://cdn-icons-png.flaticon.com/512/82/82127.png" alt="logo-de-programação">
+                <p class="mobile-max:text-[0.5rem] lemon-400 text-[#A862A0] text-[0.8rem]">Pro-program</p>
+        </div>
+        <div class="flex gap-6 mobile-max:gap-4">
+                <a href="#"><img class="mobile-max:hover:w-[2.1rem] mobile-max:hover:h-[2.1rem] mobile-max:w-[2.0rem] mobile-max:h-[2.0rem] w-[2.5rem] h-[2.5rem] hover:w-[2.7rem] hover:h-[2.7rem] hover:border-b-[0.1rem] hover:border-[#A862A0] ease-in-out" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook"></a>
+                <a href="#"><img class="mobile-max:hover:w-[2.1rem] mobile-max:hover:h-[2.1rem] mobile-max:w-[2.0rem] mobile-max:h-[2.0rem] w-[2.5rem] h-[2.5rem] hover:w-[2.7rem] hover:h-[2.7rem] hover:border-b-[0.1rem] hover:border-[#A862A0] ease-in-out" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram"></a>
+                <a href="#"><img class="mobile-max:hover:w-[2.1rem] mobile-max:hover:h-[2.1rem] mobile-max:w-[2.0rem] mobile-max:h-[2.0rem] w-[2.5rem] h-[2.5rem] hover:w-[2.7rem] hover:h-[2.7rem] hover:border-b-[0.1rem] hover:border-[#A862A0] ease-in-out" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter" ></a>
         </div>
         <div>
-            <button><img class="w-[3rem] h-[3rem]" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook--v1"/></button>
-            <button><img class="w-[3rem] h-[3rem]" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1"/></button>
-            <button><img class="w-[3rem] h-[3rem]" src="https://img.icons8.com/ios/50/twitter--v1.png" alt="twitter--v1"/></button>
-        </div>
-        <div>
-            <button>Contato</button>
+                <a href="#" class="mobile-max:text-[0.7rem] hover:shadow-md bg-[#BA8AB4] p-2 rounded-[0.5rem]">Contato</a>
         </div>
     </header>
 
     <main>
-        <section>
-            <span class="uppercase">aproveite</span>
-            <header>
-                <h2>Quer finalmente ser um programador de verdade em 2024? É a sua oportunidade!</h2>
-                <p>essa é uma oportunidade unica com o nossos cursos de Ti voçe vai ir longe nesse profição e nesse ano.</p>
+        <section class="max-width-1175 m-auto p-4 flex flex-col gap-6 justify-between items-center">
+            <span class="uppercase destacado">aproveite</span>
+            <header class="flex flex-col gap-2">
+                <h2 class="text-[1.2rem] lemon-400">Quer finalmente ser um programador de verdade em 2024? É a sua oportunidade!</h2>
+                <p>essa é uma oportunidade unica com o nossos cursos de Ti voçe vai ir longe nessa profição.</p>
             </header>
             <div>
-                <img src="assets/4706239-removebg-preview.png">
+                <img src="assets/4706239-removebg-preview.png" alt="imagem-programação">
             </div>
         </section>
-        <section>
-            <span class="uppercase">vantagens</span>
-            <header>
-                <h2>Esses são os pontos mais poderosos dos nossos cursos</h2>
-                <hr>
-                <p>Sem dúvida, benefícios exclusivos.</p>
-            </header>
-            <div>
-                <div>
-                    <img src="assets/icons8-mentoring-program-idea-64.png" alt="imagem-mentoria">
-                    <h3>Mentoria Personalizada</h3>
-                    <p>Orientação individualizada de profissionais experientes, impulsionando seu crescimento na área de TI.</p>
+        <div class="max-max bg-[#64497A] text-white">
+            <section class="max-width-1175 m-auto p-4">
+                <div class="flex items-center justify-center">
+                    <span class="uppercase destacado2">vantagens</span>
                 </div>
-                <div>
-                    <img src="assets/icons8-certificado-48.png" alt="imagem-certificado">
-                    <h3>Certificações Valorizadas</h3>
-                    <p>Preparação para certificações reconhecidas, fortalecendo seu currículo e validando suas habilidades perante empregadores.</p>
+                <header class="flex flex-col gap-4">
+                    <div class="flex flex-col justify-center items-center">
+                        <h2 class="text-[1.2rem] lemon-400">Esses são os pontos mais poderosos dos nossos cursos</h2>
+                    </div>
+                    <hr>
+                    <div class="flex flex-col justify-center items-center mb-8">
+                        <p>Sem dúvida, benefícios exclusivos.</p>
+                    </div>
+                </header>
+                <div class="flex gap-4 flex-wrap justify-center items-center">
+                    <div class=" bg-[#695468] w-[20rem] h-[17rem] p-4 rounded-2xl shadow-xl">
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <img src="assets/icons8-mentoring-program-idea-64.png" alt="imagem-mentoria">
+                            <h3 class="uppercase destacado3">Mentoria Personalizada</h3>
+                        </div>
+                        <p class="m-4">Orientação individualizada de profissionais experientes, impulsionando seu crescimento na área de TI.</p>
+                    </div>
+                    <div class=" bg-[#695468] w-[20rem] h-[17rem] p-4 rounded-2xl shadow-xl">
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <img src="assets/icons8-certificado-48.png" alt="imagem-certificado">
+                            <h3 class="uppercase destacado3">Certificações Valorizadas</h3>
+                        </div>
+                        <p class="m-4">Preparação para certificações reconhecidas, fortalecendo seu currículo e validando suas habilidades.</p>
+                    </div>
+                    <div class="bg-[#695468] w-[20rem] h-[17rem] p-4 rounded-2xl shadow-xl">
+                        <div class="flex flex-col justify-center items-center gap-4">
+                            <img src="assets/icons8-mente-64.png" alt="imagem-mente">
+                            <h3 class="uppercase destacado3">Networking Estratégico</h3>
+                        </div>
+                        <p class="m-4">Estabelecimento de conexões significativas para ampliar sua rede profissional no campo de Tecnologia da Informação.</p>
+                    </div>
+                    <div class="bg-[#695468] w-[20rem] h-[17rem] p-4 rounded-2xl shadow-xl">
+                        <div class="flex flex-col justify-center items-center">
+                            <img src="assets/icons8-tecnologia-100.png" alt="imagem-tecnologia">
+                            <h3 class="uppercase destacado3">Aprendizado Prático</h3>
+                        </div>
+                        <p class="m-2">Ênfase em atividades práticas e projetos reais para uma preparação eficaz no ambiente de trabalho em TI.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="assets/icons8-mente-64.png" alt="imagem-mente">
-                    <h3>Networking Estratégico</h3>
-                    <p>Estabelecimento de conexões significativas para ampliar sua rede profissional no campo de Tecnologia da Informação.</p>
-                </div>
-                <div>
-                    <img src="assets/icons8-tecnologia-100.png" alt="imagem-tecnologia">
-                    <h3>Aprendizado Prático</h3>
-                    <p>Ênfase em atividades práticas e projetos reais para uma preparação eficaz no ambiente de trabalho em TI.</p>
-                </div>
+                <div class="p-4"></div>
+            </section>
+        </div>
+        <section class="max-width-1175 m-auto p-4">
+            <div class="flex justify-center items-center">
+                <span class="uppercase destacado p-4">oportunidade unica</span>
             </div>
-        </section>
-        <section>
-            <span class="uppercase">oportunidade unica</span>
-            <header>
-                <h2>A oportunidade é única, aproveite agora os preços incrivelmente baixos para algo tão grandioso!</h2>
+            <header class="flex justify-center items-center">
+                <h2 class="m-4 lemon-400 text-[1.2rem] w-[50rem] mobile-max:text-[1.1rem]">A oportunidade é única, aproveite agora os preços incrivelmente baixos para algo tão grandioso!</h2>
             </header>
-            <div>
+            <div class="flex flex-col justify-center items-center">
                 <img src="assets/7561084-removebg-preview.png" alt="imagem-ilustrativa">
-                <h3 class="uppercase">Desvende o potencial ilimitado da TI: cada código aprendido é um passo rumo ao sucesso digital</h3>
+                <h3 class="uppercase destacado mb-8">Desvende o potencial ilimitado da TI: cada código aprendido é um passo rumo ao sucesso digital</h3>
             </div>
         </section>
     </main>
 
-    <footer>
-        <p>Elaborado com carinho e dedicação por Jean Marcos.</p>
-        <span>Os títulos e parágrafos foram gerados por IA</span>
-        <a href="">Github</a>
-    </footer>
+    <div class="max-max bg-[#3D303D] text-white p-4">
+        <footer class="max-width-1175 m-auto p-4 flex flex-col justify-center items-center">
+            <p class="text-[0.8rem] border-2 border-white bg-[#614A66] p-2">Elaborado com carinho e dedicação por Jean Marcos.</p>
+            <span class="text-[0.8rem] border-2 border-white m-2 bg-[#614A66] p-2">Os títulos e parágrafos foram gerados por IA</span>
+            <a href="https://github.com/JM-Jean-Marcos/site-pro-program.git" class="block mt-4 p-2 bg-[#544154] rounded-xl border-2 border-white">Github</a>
+        </footer>
+    </div>
 </body>
 </html>
